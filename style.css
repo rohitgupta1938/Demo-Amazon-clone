@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
+    z-index:1000;
   }
   /** box-1  **/
   .nav-logo {
