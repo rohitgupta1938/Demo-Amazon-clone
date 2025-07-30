@@ -128,6 +128,7 @@
   /** pannel    **/
   .pannel {
     height: 55px;
+    width: 100%;
     background-color: #222f3d;
     color: white;
     display: flex;
@@ -148,6 +149,7 @@
   
   /**hero section    **/
   .hero-section {
+    width: 100%
     background-image: url("./photo/herosection_.jpg");
     cursor: pointer;
     background-size: cover;
@@ -157,6 +159,7 @@
   /**       shoping ites             **/
   
   .shop-section {
+      width:100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -441,6 +444,7 @@
   }
   .recomend-sign {
     height: 220px;
+      width:100%;
     background-color: white;
     min-width: 1000px;
   }
@@ -480,6 +484,7 @@
   .nav-footer-top {
     background-color: #27415f;
     height: 50px;
+      width:100%;
     text-align: center;
     align-content: center;
     color: white;
@@ -491,6 +496,7 @@
     background-color: #44505e;
   }
   .all-link {
+    width:100%;
     display: flex;
     justify-content: space-evenly;
     line-height: 120%;
