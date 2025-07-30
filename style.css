@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
-    z-index:1000;
+    z-index:1;
   }
   /** box-1  **/
   .nav-logo {
@@ -133,6 +133,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    min-width: 1000px;
   }
   .menu {
     display: flex;
@@ -151,6 +152,7 @@
     cursor: pointer;
     background-size: cover;
     height: 350px;
+    min-width: 1000px;
   }
   /**       shoping ites             **/
   
@@ -160,6 +162,7 @@
     justify-content: space-evenly;
     background-color: #cac4ca;
     font-weight: 600;
+    min-width: 1000px;
   }
   .box-4 {
     height: 265px;
@@ -439,6 +442,7 @@
   .recomend-sign {
     height: 220px;
     background-color: white;
+    min-width: 1000px;
   }
   .recommend {
     justify-items: center;
